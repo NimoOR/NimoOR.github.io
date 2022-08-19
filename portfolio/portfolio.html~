@@ -1,0 +1,18 @@
+<html>
+  <link rel="stylesheet" href="../css/index.css">
+  <head>
+  </head>
+  <body>
+    <div class="titleBox">
+    <h2>
+      Why the portfolio is important to me.
+    </h2>
+    </div>
+    <div id ="contentArea">
+    <p>
+      This portfolio is important to me because it includes most of my works of merit. It acts as a collection of everything I have done so far and a good place to keep all of my projects. It also demonstrates my professional ability and design
+    </p>
+    </div>
+    
+  </body>
+</html>
