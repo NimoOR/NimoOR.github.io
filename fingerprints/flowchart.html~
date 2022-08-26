@@ -1,0 +1,46 @@
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" href="https://codermerlin.com/users/nimrod-ohayon-rozanes/DigitalPortfolio/css/index.css">
+    <style>
+      .p {
+	  line-height: 150%;
+      }
+      .button{
+	  display: block;
+	  border: none;
+	  padding: 0x 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 130;
+	  font-family: American Typewriter, serif;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+      }
+      .genericButtons{
+	  display: block;
+	  background-color: black;
+	  color: white;
+	  border:  2px black;
+      }
+      .genericButtons:hover {
+	  display: block;
+	  background-color: white;
+	  color: black;
+	  border: 2px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "titleBox">
+      <h2>
+	Flowchart
+      </h2>
+    </div>
+    <img src="fingerprints.jpg" alt="fingerprints">
+    <button class="button genericButtons" onclick = "location.href = 'https://codermerlin.com/users/nimrod-ohayon-rozanes/DigitalPortfolio/index/index.html'">back</button>
+    <button class="button genericButtons" onclick "location.href = '../fingerprint/citations.html'">citation</button>
+    <button class="button genericButtons" onclick "location.href = '../fingerprint/fingerprints.html'">fingerprints</button>
+  </body>
+</html>

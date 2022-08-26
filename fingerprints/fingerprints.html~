@@ -1,0 +1,62 @@
+<html lang = "en">
+  <head>
+    <link rel="stylesheet" href="https://codermerlin.com/users/nimrod-ohayon-rozanes/DigitalPortfolio/css/index.css">
+    <style>
+      .p {
+	  line-height: 150%;
+      }
+      .button{
+	  display: block;
+	  border: none;
+	  padding: 0x 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 130;
+	  font-family: American Typewriter, serif;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+      }
+      .genericButtons{
+	  display: block;
+	  background-color: black;
+	  color: white;
+	  border:  2px black;
+      }
+      .genericButtons:hover {
+	  display: block;
+	  background-color: white;
+	  color: black;
+	  border: 2px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "titleBox">
+      <h2>
+	Fingerprints
+      </h2>
+    </div>
+      <p>
+	The essentiels of the internet are the users, the internet providers and the web applications. The users want to connect to the web application, and do so by the internet providers who can connect the users to where the web applications are hosted. In the early days of the internet, it was impossible to tell if your connection to the site you wanted was actually to the legitimate website, and not an imitation of it. As the internet matured and developed, it became necessary to make the connections as secure as possible because users started to use the internet for more sensitive information, such as login or banking information.
+      </p>
+      <p>
+	Enter Netscape, a team of undergrads at the University of Illinois set out to create an easy way to access information. That team would eventually construct what would eventually become the Netscape Navigator, one of the most prolific internet browsers of the early internet years (Blitz 2019). The developers at NetScape looked to develop a system which solved both the problems of privacy and security. They introduced a third, trusted, party, which would assure that the user’s sensitive traffic went to the website it was intended to go to. The trusted third party would become the Certificate authority. Certificate Authority were parts of a system devised by Netscape, where a third party, already trusted by the browser, checks off on a connection and assures us that our traffic only goes where we intended it to go.
+      </p>
+      <p>
+	On top of that, add the newer HTTPS protocol, which added an extra layer of encryption, known either as SSL or TLS (Secure Sockets Layer and Transport Layer Security). SSL is a protocol which creates secure and encrypted links between two network devices. The SSL certificate of a website binds the identity of the website with a key pair (similar to SSH). The public key is used by the browser to create a communication layer between the site and the users (SSL 2021).
+      </p>
+      <p>
+	All this is done to prevent what is known as Man-In-The-Middle attacks. In these types of attacks, a malicious third party entity places itself in between the connection from the user to the web application they are trying to access. The goal of the attack is to gain the information of the user, what they are doing or their sensitive information (Yasar). The perpetrator is not always a complete stranger, oftentimes the party looking for the user's information is the internet supplier, whether it be a school or private business. Because of the aforementioned security measures taken to protect user privacy, employers and educators became anxious that they could not see what their users were doing anymore. Their solution to this issue was creating a “Pseudo Certificate Authority”. They install proxies or spoofers on the devices, and before the information even leaves the building, it is intercepted by the supplier (GRC). This interception can not be prevented, for as long as you are using the authorities internet at least, but it can be detected. Because hashes are unique for every phrase, a genuine SSL certificate can never be fully replicated by any authority. The remote servers certificate, and the supplier's fake certificate, must always have different fingerprints. Importantly, the educator, employer or internet provider, has the right to eavesdrop on your information. Because you are using their bandwidth and their internet, they reserve the right to see what you are doing on their network.
+      </p>
+      <p>
+	Earlier, the SSL certificates were described as unique and irreplicable, which is true, however might be misleading for larger websites. With websites that operate internationally, they might opt to have several SSL certificates, and therefore there are scenarios where the SSL certificate might not appear as genuine, leading to false positives.
+      </p>
+      <p>
+	Finally, the algorithm to compare the hashes of the SSL certificate and what the browser gives us can be described briefly. The browser will initiate an SSL handshake, where the browser and web server recognize one another, the web server will report the browser its certificate. The certificate will be checked out with the browsers Certificate Authority. If the hash in the reported certificate checks out, the browser will send the server an encrypted key created with the server's public key, and it will legitimize itself by sending the server its own certificate. The server decrypts the session key with the private key and signs off on the session, completing the handshake (IBM 2022).
+      </p>
+    <button class="button genericButtons" onclick = "location.href = 'https://codermerlin.com/users/nimrod-ohayon-rozanes/DigitalPortfolio/index/index.html'">back</button>
+	<button class="button genericButtons" onclick "location.href = '../fingerprint/citations.html'">citation</button>
+  </body>
+</html>
