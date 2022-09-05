@@ -54,10 +54,10 @@
 	Earlier, the SSL certificates were described as unique and irreplicable, which is true, however might be misleading for larger websites. With websites that operate internationally, they might opt to have several SSL certificates, and therefore there are scenarios where the SSL certificate might not appear as genuine, leading to false positives.
       </p>
       <p>
-	Finally, the algorithm to compare the hashes of the SSL certificate and what the browser gives us can be described briefly. The browser will initiate an SSL handshake, where the browser and web server recognize one another, the web server will report the browser its certificate. The certificate will be checked out with the browsers Certificate Authority. If the hash in the reported certificate checks out, the browser will send the server an encrypted key created with the server's public key, and it will legitimize itself by sending the server its own certificate. The server decrypts the session key with the private key and signs off on the session, completing the handshake (IBM 2022).
+	Finally, the algorithm to compare the hashes of the SSL certificate and what the browser gives us can be described briefly. The browser will initiate an SSL handshake, where the browser and web server recognize one another, the web server will report the browser its certificate. The certificate will be checked out with the browsers Certificate Authority. If the hash in the reported certificate checks out, the browser will send the server an encrypted key created with the server's public key, and it will legitimize itself by sending the server its own certificate. The server decrypts the session key with the private key and signs off on the session, completing the handshake (IBM 2022). The flowchart is shown in the flowcharts page.
       </p>
-    <button class="button genericButtons" onclick = "location.href = 'https://codermerlin.com/users/nimrod-ohayon-rozanes/DigitalPortfolio/index/index.html'">back</button>
-    <button class="button genericButtons" onclick "location.href = '../fingerprint/citations.html'">citation</button>
-    <button class="button genericButtons" onclick "location.href = '../fingerprint/flowchart.html'">flowcharts</button>
+    <button class="button genericButtons" onclick = "location.href = '../../index/index.html'">back</button>
+    <button class="button genericButtons" onclick = "location.href = 'citations.html'">citation</button>
+    <button class="button genericButtons" onclick = "location.href = '../fingerprints/flowchart.html'">flowchart</button>
   </body>
 </html>
