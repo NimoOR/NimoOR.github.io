@@ -1,3 +1,3 @@
 #!/bin/bash
 
-chmod -R a+rX ~/DigitalPortfolio
+chmod -R a+rX ~/Digital\ Portfolio
