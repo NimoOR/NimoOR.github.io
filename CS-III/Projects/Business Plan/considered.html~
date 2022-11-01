@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Considered</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <style>      
+      h1 {
+	  font-size: 500%;
+	  font-family: American Typewriter, serif; 
+      }
+      .titleBox{
+	  margin-top: 5%;
+	  margin-left: 10%;
+      }
+      .buttonBox{
+	  margin-top: 10%;
+	  margin-left: 10%
+      }
+      .button{
+	  display: block;
+	  border: none;
+	  padding: 0px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 100px;
+	  font-family: American Typewriter, serif;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+      }
+      .genericButtons{
+	  display: block;
+	  background-color: white;
+	  color: black;
+	  border:  2px black;
+      }
+      .genericButtons:hover {
+	  display: block;
+	  background-color: black;
+	  color: white;
+	  border: 2px white;
+      }
+      .contentBox{
+	  float: left;
+	  box-sizing: content-box;
+      }
+     </style>
+  </head>
+  <body>
+    <div class = "titleBox">
+      <h1>Considered</h1>
+    </div>
+    <div class = 'contentBox'>
+      </p><p>
+    </div>
+  </body>
+</html>

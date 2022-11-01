@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    marrgin: 0;
+}
+
+p{
+    color: red;
+    font-size:20px;
+    font-family: "Courier New", monospace;
+    font-style: normal;
+    font-variant: normal;
+}
+
+#title{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    corder: 1px solid black;
+}
+body {
+    background-color: black;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+}
+.imageContainer{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    bottom: 100px;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: right;
+    float: right;
+    width: 500px;
+    height: 600px;
+}
+.animatedTitle{
+    width: 600px;
+    height: 221px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/AO7qFEj.png); 
+}
+
+.animatedCat{
+    width: 700px;
+    height: 600px;
+    float: left;
+    background-size: cover;
+    background-image: url(https://i.imgur.com/e2cubM7.png);
+}
+
+.fadeIn{
+    -webkit-animation: animat_show: 0.8s;
+    animation: animat_show;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes animat_show{
+    0%{
+	opacity: 0;
+    }
+    100%{
+	opacity: 1;
+    }
+}
+.fadeInTop{
+    -webkit-animation: fadeInTop 3s both;
+    -moz-animation: fadeInTop 3s both; 
+    -o-animation: fadeInTop 3s both;
+    animation: fadeInTop 3s both;
+}
+
+@keyframes fadeInTop{
+    0%{
+	opacity: 0;
+	transform: translateY(-50px);
+    }
+    100%{
+	opacity: 1;
+	tranform: translateY(0);
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./projectStyle.css">
+    <title>
+      Senior ISP
+    </title>
+  </head>
+  <body>
+    <section id="title">
+      <div class="titleContainer">
+	<div class="animatedTitle fadeInTop"></div>
+      </div>
+    </section>
+      <div class="aboutContainer">
+	<p>Fast, quiet, efficient, and graceful, the cat aims to be the premium cafe racer for the city. The electric motor saves on weight and size, creating a slim and maneuverable bike for squeezing through alleyways and traffic, while still competing with its combustion engine counterpart for top speed and acceleration. Where there is no competition, however, is the engine’s efficiency, with lower operating and maintenance costs across the board. A cat has nine lives, and not a single one lost with the cat’s custom PID acceleration and controlled deceleration loop, and assisted cruise control. Disappear into the night with the cat’s black matte finish and red highlights. The cat is for the businessmen, the students, the billionaires, the vigilantes and bulgrers looking for silk, under-the-radar electric experience
+	</p>
+      </div>
+      <div class="imageContainer">
+	<div class="animatedCat"></div>
+      </div>
+  </body>
+</html>
