@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>Sorting Analysis</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+      .button{
+	  display: block;
+	  border: none;
+	  padding: 0px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 130px;
+	  font-family: American Typewriter, serif;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+      }
+      .genericButtons{
+	  display: block;
+	  background-color: black;
+	  color: white;
+	  border:  2px black;
+      }
+      .genericButtons:hover {
+	  display: block;
+	  background-color: white;
+	  color: black;
+	  border: 2px white;
+      }
+      .p1{
+	  font-size: 40px;	  
+	  font-family: "Times New Roman", Times, serif; 
+      }
+      .paraBox{
+	  float: left
+      }
+    </style>
+  </head>
+  <body>
+    <div class = "titleBox">
+      <h2>
+	Sorting
+      </h2>
+    </div>
+    <div id = "contentArea" lang="en">
+      <a href="https://docs.google.com/spreadsheets/d/1NaFb3DJ9DL6hSQ9nAJij8VeSWt4NOn8pvbVyPP-kfqA/edit?usp=sharing"> Google sheets of Data</a>
+      <a href="https://github.com/NimoOR/SelectionSortNimoOR"> Github for Selection Sort </a>
+      <a href="https://github.com/NimoOR/BubbleSortNimoOR.git"> Github for Bubble Sort </a>
+      <a href="https://github.com/NimoOR/InsertionSortNimoOR.git"> Github for Insertion Sort </a>
+      <img src="../AverageTimes.png" alt="average times from the google sheets">
+      <p class = "p1">
+	This graph reveals several things about how each sort functions. The first being the most obvious, which is that they are all strictly increasing functions, and the time to finish will always take longer with more tests.Another thing this graph tells us about the algrithms is that they all have a similar shape, which tells us that all algorithms have a time complexity of O(n^2), meaning that the operations needed to finish the algorithm increases dramatically as the number of words increase. This is supported by the fact that the difference between the difference between 100 and 1000 is a lot lower than the difference between 10000 and 100000. The shapes of each algorithm also tell us about it's process. Starting with Insertion sort, which is consistantly the fastest in all three test types. The results for reverse (maximum swaps) and ordred (minimum swaps) are the lowest by a wide margine for Insertion sort. This is because insertion sort works by splitting the data into a sorted and unsorted subarray,and unsorted elements are put into their proper place. This works incredibly fast for already sorted arrays because the algorithm only has to go through the array once. Selection sort is segnificantly less effecient on all fronts, as is seen by the fact that all three tests for bubble sort will take at least a little less than a milisecond. Bubble sort gets even worse as the number of words increase because it has to iterate through the entire array several times again and again.  Finally bubble sort is somewhere between the two prior sorts, presenting an effecient but not optimized sorting algorithm. Although the shapes are all similar, they are massivly different in scale and magnitude. It is also important to consider some of the limitations, 5 tests reduces, but does not entierly remove, random entropy from the data. With some data points so close together, it is counterproductive to say that certain sorts are better for certain amounts of words. 
+      </p>
+      </div>
+    <button class="button genericButtons" onclick = "location.href = '../index/index.html'">back</button>
+  </body>
+</html>
